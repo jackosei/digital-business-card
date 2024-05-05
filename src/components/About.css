@@ -1,0 +1,15 @@
+.about {
+    padding: 24px 32px 0px 32px;
+    line-height: 1.4;
+}
+
+.about .heading {
+    color: var(--text-primary);
+    font-size: 1.25rem;
+    margin-bottom: .4rem;
+}
+
+.about .text {
+    color: var(--text-secondary);
+    font-size: .7rem;
+}

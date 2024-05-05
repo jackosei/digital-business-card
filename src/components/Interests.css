@@ -1,0 +1,15 @@
+.interests {
+    padding: 24px 32px;
+    line-height: 1.4;
+}
+
+.interests .heading {
+    color: var(--text-primary);
+    font-size: 1.25rem;
+    margin-bottom: .4rem;
+}
+
+.interests .text {
+    color: var(--text-secondary);
+    font-size: .7rem;
+}

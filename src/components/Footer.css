@@ -1,0 +1,13 @@
+.footer {
+    padding: 1.5rem;
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--footer-bg);
+}
+
+.footer .footer-icon {
+    width: 25px;
+    height: 25px;
+}
