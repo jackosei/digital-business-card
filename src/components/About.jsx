@@ -5,9 +5,11 @@ export default function About() {
 		<div className="about">
 			<h2 className="heading">About</h2>
 			<p className="text">
-				I am a frontend developer with a particular interest in making things
-				simple and automating daily tasks. I try to keep up with security and
-				best practices, and am always looking for new things to learn.
+				I'm a frontend developer with a strong passion for creating simple yet
+				performant products, and automating everyday tasks. Having transitioned
+				from a decade-long career in IT, I prioritize staying updated on
+				security measures and industry best practices. I'm continually seeking
+				out new opportunities to expand my knowledge and skills.
 			</p>
 		</div>
 	)
