@@ -20,11 +20,11 @@ export default function App() {
 
 	return (
 		<div className="app" data-theme={theme}>
+			<ThemeButton theme={theme} switchTheme={switchTheme} />
 			<Info />
 			<About />
 			<Interests />
 			<Footer />
-			<ThemeButton theme={theme} switchTheme={switchTheme} />
 		</div>
 	)
 }
