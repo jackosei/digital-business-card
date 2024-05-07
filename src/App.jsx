@@ -1,9 +1,9 @@
 import useLocalStorage from "use-local-storage"
-import Info from "./components/Info"
-import About from "./components/About"
-import Interests from "./components/Interests"
-import Footer from "./components/Footer"
-import ThemeButton from "./components/ThemeButton"
+import Info from "./components/home/Info"
+import About from "./components/home/About"
+import Interests from "./components/home/Interests"
+import Footer from "./components/home/Footer"
+import ThemeButton from "./components/home/ThemeButton"
 import "./App.css"
 
 export default function App() {

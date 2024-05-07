@@ -1,5 +1,5 @@
-import mailIcon from "../assets/Mail.svg"
-import linkedinIcon from "../assets/linkedin.svg"
+import mailIcon from "../../assets/Mail.svg"
+import linkedinIcon from "../../assets/linkedin.svg"
 import "./Info.css"
 
 export default function Info() {
