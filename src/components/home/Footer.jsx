@@ -1,7 +1,7 @@
-import twitterIcon from "../../assets/Twitter Icon.svg"
-import facebookIcon from "../../assets/Facebook Icon.svg"
-import instagramIcon from "../../assets/Instagram Icon.svg"
-import githubIcon from "../../assets/GitHub Icon.svg"
+import twitterIcon from "../../assets/icons/Twitter Icon.svg"
+import facebookIcon from "../../assets/icons/Facebook Icon.svg"
+import instagramIcon from "../../assets/icons/Instagram Icon.svg"
+import githubIcon from "../../assets/icons/GitHub Icon.svg"
 import "./Footer.css"
 
 export default function Footer() {
