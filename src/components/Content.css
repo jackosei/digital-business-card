@@ -1,0 +1,12 @@
+.content-section .heading {
+    color: var(--text-primary);
+    font-size: 1.25rem;
+    margin-bottom: .4rem;
+    line-height: 1.2;
+}
+
+.content-section .text {
+    color: var(--text-secondary);
+    font-size: .75rem;
+    line-height: 1.4;
+}
