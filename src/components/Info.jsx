@@ -1,6 +1,7 @@
 import mailIcon from "../assets/Mail.svg"
 import linkedinIcon from "../assets/linkedin.svg"
 import "./Info.css"
+import LocationPin from "./icons/LocationPin"
 
 export default function Info() {
 	return (
@@ -9,9 +10,10 @@ export default function Info() {
 			<div className="text__wrapper">
 				<h1 className="name">Jack Osei</h1>
 				<p className="role">Frontend Developer</p>
-				<a className="website" href="/">
-					jackosei.com
-				</a>
+				<div className="location">
+					<LocationPin />
+					Dubai, UAE
+				</div>
 			</div>
 			<div className="btns__wrapper">
 				<a className="btn btn__email" href="mailto:jackoseik@gmail.com">
@@ -22,7 +24,7 @@ export default function Info() {
 					className="btn btn__linkedin"
 					href="https://www.linkedin.com/in/jackosei/"
 				>
-					<img src={linkedinIcon} alt="mail icon" />
+					<img src={linkedinIcon} alt="linkedin icon" />
 					<p>LinkedIn</p>
 				</a>
 			</div>
