@@ -5,6 +5,7 @@ import MailIcon from "../assets/icons/MailIcon"
 import LinkedInIcon from "../assets/icons/LinkedInIcon"
 import FacebookIcon from "../assets/icons/FacebookIcon"
 import GitHubIcon from "../assets/icons/GitHubIcon"
+import ResumePDF from "../../public/Jack Osei Resume.pdf"
 
 import "./Hero.css"
 import CodeIcon from "../assets/icons/CodeIcon"
@@ -43,8 +44,9 @@ export default function Info() {
 				</a>
 				<a
 					className="btn btn__download"
-					href="../../public/Jack Osei Resume.pdf"
+					href={ResumePDF}
 					target="_blank"
+					download="Jack Osei Resume.pdf"
 				>
 					<DownloadIcon size={16} className="download-icon" />
 					Download CV
