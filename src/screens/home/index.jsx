@@ -1,10 +1,10 @@
-import Info from "../../components/Info"
+import Hero from "../../components/Hero"
 import ContentSection from "../../components/ContentSection"
 
 const index = () => {
   return (
     <div>
-      <Info />
+      <Hero />
       <ContentSection />
     </div>
   )

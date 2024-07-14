@@ -1,6 +1,5 @@
 import ThemeButton from "./ThemeButton"
-import JackLogo from "../assets/icons/JackLogo"
-import brandLogo from "../assets/jack-logo.svg"
+import JackLogo from "../assets/JackLogo"
 
 const Navbar = ({theme, switchTheme}) => {
 

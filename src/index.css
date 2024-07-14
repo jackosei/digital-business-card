@@ -8,6 +8,7 @@
     --footer-bg: #D5D4D8;
     --accent: #F47D27;
     --white: #FFF;
+    --black: #374151;
 }
 
 [data-theme='dark'] {
