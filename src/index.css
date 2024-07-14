@@ -1,3 +1,6 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap");
+
 :root {
     --background: #F5F5F5;
     --text-primary: #2B283A;
@@ -5,13 +8,14 @@
     --footer-bg: #D5D4D8;
     --accent: #F47D27;
     --white: #FFF;
+    --black: #374151;
 }
 
 [data-theme='dark'] {
     --background: #1A1B21;
     --text-primary: #F5F5F5;
     --text-secondary: #DCDCDC;
-    --accent: #F3BF99;
+    /* --accent: #F3BF99; */
     --footer-bg: #161619;
 }
 
@@ -26,7 +30,7 @@
 body {
     margin: 0;
     box-sizing: border-box;
-    font-family: "Inter", sans-serif;
+    font-family: "Bai Jamjuree", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
