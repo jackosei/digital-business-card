@@ -1,8 +1,8 @@
 import useLocalStorage from "use-local-storage"
-import ContentSection from "./components/ContentSection"
-import Info from "./components/Info"
+import Home from "./screens/home"
 import Footer from "./components/Footer"
-import ThemeButton from "./components/ThemeButton"
+// import ThemeButton from "./components/ThemeButton"
+import Navbar from "./components/Navbar"
 import "./App.css"
 
 export default function App() {
@@ -19,9 +19,9 @@ export default function App() {
 
 	return (
 		<div className="app" data-theme={theme}>
-			<ThemeButton theme={theme} switchTheme={switchTheme} />
-			<Info />
-			<ContentSection />
+			{/* <ThemeButton theme={theme} switchTheme={switchTheme} /> */}
+			<Navbar theme={theme} switchTheme={switchTheme}/>
+			<Home />
 			<Footer />
 		</div>
 	)
