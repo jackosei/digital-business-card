@@ -31,19 +31,38 @@
   max-height: 2rem;
 }
 
-.nav .nav-links {
+/* .nav .nav-links {
   
-}
+} */
 
 .nav .nav-links .nav-link {
   /* text-decoration: none; */
   font-size: 0.875rem;
   color: var(--text-primary);
   margin-left: 0.5rem;
+  text-decoration: none;
+  transition: .3s;
+  position: relative;
+}
 
-  &:hover{
-    color: var(--accent);
-  }
+.nav .nav-links .nav-link::after {
+  content: "";
+  width: 0; 
+  height: 0.125rem;
+  background-color: var(--accent);
+  position: absolute;
+  left: 0;
+  bottom: -0.25rem;
+  transition: width 0.3s; 
+}
+
+.nav .nav-links .nav-link.active::after {
+  width: 25%;
+}
+
+.nav .nav-links .nav-link:hover::after,
+.nav .nav-links .nav-link.active:hover::after {
+  width: 100%; 
 }
 
 .footer {

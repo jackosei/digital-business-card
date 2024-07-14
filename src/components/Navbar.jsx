@@ -8,7 +8,7 @@ const Navbar = ({theme, switchTheme}) => {
 		<nav className="nav" >
 			<JackLogo size={32} className="brand-logo"/>
 			<div className="nav-links">
-				<a href="!#" className="nav-link">Home</a>
+				<a href="!#" className="nav-link active">Home</a>
 				<a href="!#" className="nav-link">About</a>
 				<a href="!#" className="nav-link">Journals</a>
 				<ThemeButton theme={theme} switchTheme={switchTheme} />
