@@ -39,14 +39,15 @@ export default function Info() {
 			<div className="btns__wrapper">
 				<a className="btn btn__email" href="mailto:jackoseik@gmail.com">
 					<MailIcon size={16} className="mail-icon" />
-					<span>Email</span>
+					Email
 				</a>
 				<a
 					className="btn btn__download"
-					href="https://www.linkedin.com/in/jackosei/"
+					href="../../public/Jack Osei Resume.pdf"
+					target="_blank"
 				>
 					<DownloadIcon size={16} className="download-icon" />
-					<span>Download CV</span>
+					Download CV
 				</a>
 
 			</div>
